@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    color: rgb(217, 42, 220);
+    background-color: yellow;
+    
+}
+
+p{
+    color: blue;
+    background-color: khaki;
+}
+
+#svarbus sarasas{
+    background-color: blue;
+}
+
+.sarasas{
+    background-color: red;
+}
+
+ul{
+    background-color: green;
+}

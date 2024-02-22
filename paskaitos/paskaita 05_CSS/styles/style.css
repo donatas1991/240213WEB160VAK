@@ -1,0 +1,46 @@
+h1{
+    color: red;
+}
+
+p.ribotas-plotis{
+    width: 400px;
+
+}
+
+p.ribotas-plotis span{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    color: yellow;
+    background-color: red;
+    display: inline-block;
+
+}
+
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.prekes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.preke{
+    width: 500px;
+}
+
+.prekes .preke:nth-child(1){
+    flex-shrink: 220;
+}
+.prekes .preke:nth-child(2){
+    flex-shrink: 1;
+}
+.prekes .preke:nth-child(3){
+    flex-shrink: 154;
+}
+.prekes .preke:nth-child(4){
+    flex-shrink: 380;
+}

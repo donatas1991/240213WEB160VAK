@@ -1,0 +1,23 @@
+body{
+   color: #bdc3c7;
+}
+
+h1{
+    color: #9b59b6;
+}
+
+h2{
+    color: orange;
+}
+
+li{
+    color: #100e80;
+}
+
+p{
+    background-color: yellow;
+}
+
+input{
+    border: 3px solid red;
+}
