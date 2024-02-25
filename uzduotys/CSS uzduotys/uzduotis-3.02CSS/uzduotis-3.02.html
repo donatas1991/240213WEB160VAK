@@ -13,8 +13,8 @@
     <h1>Selectors Exercise</h1>
 
     <p>PARAGRAPH NOT INSIDE A DIV</p>
-    <p>I am a paragraph with a class</p>
-    <p>I am a paragraph with an ID</p>
+    <p class="hello">I am a paragraph with a class</p>
+    <p class="special">I am a paragraph with an ID</p>
 
     <h2>I am an awesome h2</h2>
 
@@ -30,21 +30,30 @@
     <h2>Things I need to do</h2>
 
     <ul>
-        <li>Walk Dog <input type="checkbox" name="walk dog" id="walk dog"></li>
-        <li>Feed Dog <input type="checkbox" name="feed dog" id="feed dog"></li>
-        <li>Wash Dog <input type="checkbox" name="wash dog" id="wash dog"></li>
+        <li> <label for="walk_dog">Walk Dog</label>
+            <input type="checkbox" name="walk dog" id="walk_dog">
+        </li>
+        <li><label for="feed_dog">Feed Dog</label>
+            <input type="checkbox" name="feed_dog" id="feed_dog">
+        </li>
+        <li><label for="wash_dog">Wash Dog</label>
+            <input type="checkbox" name="wash_dog" id="wash_dog">
+        </li>
     </ul>
 
     <h2>I am another awesome h2</h2>
 
     <p>Cardigan Tumblr mlkshk, fap tilde 3 wolf moon Portland. Heirloom health goth taxidermy blog lo-fi selfies,
         post-ironic master cleanse fingerstache normcore. Kickstarter plaid twee, bespoke single-origin coffee
-        sustainable lo-fi vinyl Pinterest pork belly cronut skateboard 3 wolf moon. Normcore single-origin coffee
+        sustainable lo-fi vinyl Pinterest pork belly <i>cronut skateboard 3</i> wolf moon. Normcore single-origin coffee
         salvia, bespoke Austin swag Godard before they sold out kogi disrupt locavore. Lumbersexual Shoreditch Vice,
         artisan American Apparel master cleanse yr salvia vegan. Bespoke letterpress heirloom kale chips deep v four
         loko. Lomo sustainable put a bird on it trust fund post-ironic
     </p>
-    <p>I'm the second paragraph inside this div!</p>
+    <div class="paragrafas">
+        <p>I'm the second paragraph inside this div!</p>
+    </div>
+
     <p>PARAGRAPH NOT INSIDE A DIV</p>
 
     <h2>A less awesome h2</h2>
@@ -57,7 +66,10 @@
         Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan
         mixtape street art pour-over whatever
     </p>
-    <p>One last paragraph here!</p>
+    <div class="paragrafas">
+        <p>One last paragraph here!</p>
+    </div>
+    
 
     <a href="https://facebook.com">I am link to facebook</a>
     <a href="https://facebook.com">I am another link to facebook</a>
@@ -65,6 +77,7 @@
     <table>
         <tr>
             <td><input type="text" name="name" id="name">Name</td>
+
         </tr>
         <tr>
             <td><input type="password" name="password" id="">Password</td>
