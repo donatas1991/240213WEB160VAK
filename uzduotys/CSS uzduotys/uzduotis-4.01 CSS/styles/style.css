@@ -3,12 +3,58 @@ body {
 }
 h1 {
     color: blue;
+    background-color: green;
 } 
 
 p{
     color: white;
 }
 
+p:nth-of-type(1) {
+    background-color: hsl(0, 96%, 50%);
+}
+p:nth-of-type(2) {
+    background-color: hsl(0, 94%, 43%);
+}
+p:nth-of-type(3) {
+    background-color: hsl(0, 100%, 36%);
+}
+p:nth-of-type(4) {
+    background-color: hsl(0, 96%, 29%);
+}
+p:nth-of-type(5) {
+    background-color: hsl(0, 97%, 23%);
+}
+p:nth-of-type(6) {
+    background-color: hsl(0, 93%, 16%);
+}
+p:nth-of-type(7) {
+    background-color: hsl(0, 92%, 9%);
+}
+p:nth-of-type(8) {
+    background-color: hsl(76, 100%, 36%);
+}
+p:nth-of-type(9) {
+    background-color: hsl(250, 97%, 15%);
+}
+p:nth-of-type(10) {
+    background-color: hsl(250, 96%, 21%);
+}
+p:nth-of-type(11) {
+    background-color: hsl(250, 99%, 29%);
+}
+p:nth-of-type(12) {
+    background-color: hsl(250, 97%, 36%);
+}
+p:nth-of-type(13) {
+    background-color: hsl(250, 93%, 42%);
+}
+p:nth-of-type(14) {
+    background-color: hsl(250, 94%, 40%);
+}
+p:nth-of-type(15) {
+    background-color: hsl(250, 100%, 50%);
+}
 p{
-
+    margin: 0;
 }

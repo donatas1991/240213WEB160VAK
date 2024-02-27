@@ -1,0 +1,14 @@
+.red {
+    background-color: #2424c7 !important;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+.row .col {
+    margin-bottom: 20px;
+}
+.my-image {
+    width: 100px;
+}
