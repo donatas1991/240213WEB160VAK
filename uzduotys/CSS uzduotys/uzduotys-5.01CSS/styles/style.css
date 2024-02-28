@@ -1,15 +1,32 @@
+.container {
+    border-style: double;
+    width: 50%;
+    margin: auto;
+    
 
-
-
-div .container {
-    display: flex;
-    justify-content: center;
 }
 
-div .container nav {
-    margin: 0;
-    padding: 0;
+.container header {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+
+}
+
+ nav ul {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-around;
+    border-style: solid double groove;
+
+}
+
+nav ul li a {
+    list-style: none;
+    color: black;
+
+}
+
+nav ul li {
+    list-style: none;
+
 }
