@@ -1,32 +1,17 @@
-.container {
+
+
+   
+header .container {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, 0);
     border-style: double;
-    width: 50%;
-    margin: auto;
-    
-
 }
-
-.container header {
-    display: grid;
-    justify-content: center;
-    margin: auto;
-
-}
-
- nav ul {
+header .container nav {
     display: flex;
-    justify-content: space-around;
-    border-style: solid double groove;
-
+    justify-content: center;
 }
 
-nav ul li a {
-    list-style: none;
-    color: black;
-
-}
-
-nav ul li {
-    list-style: none;
-
-}
