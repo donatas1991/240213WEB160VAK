@@ -1,11 +1,20 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     /* position: relative; */
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container img {
+    height: 50px;
 }
 
 .container ul {
@@ -51,7 +60,7 @@ h4 {
     margin: 0 auto;
 }
 
-.project ul {
+.services ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -61,18 +70,78 @@ h4 {
     column-gap: 10px;
 }
 
-.project ul li {
+.services ul li {
     text-align: center;
     border: 2px solid #E0E3EB;
     border-radius: 4px;
     padding: 20px;
 }
 
-.project ul li img {
+.services ul li img {
     margin-top: 15px;
     width: 100%;
 }
 
+h3 {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    color: #292E3D;
+    margin-left: 56px;
+}
+
 p {
-    color:#2947A9;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    color: #2947A9;
+    margin-left: 56px;
+}
+
+.projects ul {
+    margin-left: 17px;
+}
+
+
+.projects ul li {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #C2C7D6;
+    list-style: none;
+}
+
+table {
+    margin-left: 56px;
+    text-align: left;
+}
+
+.table table tr td:first-child {
+    font-family: "Work Sans", sans-serif;
+    font-style: none;
+    size: 20px;
+    color: #2947A9;
+    padding-bottom: 20px;
+
+}
+.table table tr td:last-child {
+    color:#292E3D;
+}
+
+.table table tr td {
+    font-family: "Work Sans", sans-serif;
+    font-style: none;
+    size: 20px;
+    padding-bottom: 20px;
+}
+
+.table table tr td a {
+    text-decoration: none;
+    color: #292E3D;
+}
+
+.logo-bottom img{
+    width: 120px;
+    margin-left: 56px;
+    padding-top: 20px;
 }
