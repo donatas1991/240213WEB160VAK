@@ -6,6 +6,7 @@
     
 }
 
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -140,6 +141,10 @@ h4 {
 
 
 /* p {
+    margin-left: 56px;
+}
+
+p {
     font-family: "Work Sans", sans-serif;
     font-style: normal;
     font-size: 26px;
