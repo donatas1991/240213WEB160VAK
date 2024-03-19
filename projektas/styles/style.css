@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Work Sans";
+    font-style: normal;
+}
+
 .container {
-    /* position: relative; */
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
-    
+
 }
 
 
@@ -17,7 +26,7 @@ header .container {
 }
 
 
- .logo-top img{
+.logo-top img {
     height: 50px;
 }
 
@@ -28,31 +37,24 @@ header .container {
 .container .menu ul li {
     list-style: none;
     margin-left: 50px;
-    /* margin-top: 30px;
-    margin-bottom: 29px;
-    margin-right: 112px; */
 }
 
 
 
 .container .menu ul li a {
     text-decoration: none;
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 18px;
     color: #14171F;
 }
 
 header .foto img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 
 h4 {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 36px;
     text-align: center;
     color: #292E3D;
@@ -68,8 +70,6 @@ h4 {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 20px;
     column-gap: 10px;
 }
@@ -93,12 +93,10 @@ h4 {
 }
 
 .projects h2 {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 26px;
     color: #292E3D;
     margin-left: 40px;
-    
+
 }
 
 .projects-content {
@@ -108,30 +106,27 @@ h4 {
 
 .projects-content ul {
     list-style: none;
-    
+
 }
 
 .projects-content .active {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 24px;
     color: #2947A9;
-    
+
 }
 
 .projects-content ul li a {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 24px;
     color: #C2C7D6;
     text-decoration: none;
-    
+
 }
+
 .projects-content ul li {
     margin-bottom: 20px;
 }
 
-.project-list  {
+.project-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -141,80 +136,51 @@ h4 {
 }
 
 .project-list img {
-    /* padding: 20px; */
     width: 100%;
+    display: block;
 }
 
- .mediniai {
+.items {
     position: relative;
-    color: red;
+    color: white;
     width: calc((100% / 2) - ((1 / 2)* 20px));
 }
- .text  {
+
+.text {
+    
+    font-size: 18px;
     position: absolute;
     text-align: center;
-    background-color: #2947A9;
+    background-color: #2947a965;
     width: 100%;
     bottom: 0;
     left: 0;
     margin: 0;
 }
 
-    
-
-
-
-
-/* p {
-    margin-left: 56px;
+.container .table {
+    border-top: 1px solid;
+    margin-top: 25px;
+    background-color: #F6F8F7;
 }
 
-p {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
-    font-size: 26px;
-    color: #2947A9;
-    margin-left: 56px;
-}
+.container .table table {
+    margin-top: 25px;
 
-.projects ul {
-    margin-left: 17px;
-}
-
-
-.projects ul li {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
-    font-size: 24px;
-    color: #C2C7D6;
-    list-style: none;
-} */
-
-.container-bottom {
-    width: 100%;
-    max-width: 1220px;
-    margin: 0 auto;
-}
-
-table {
-    text-align: left;
 }
 
 .table table tr td:first-child {
-    font-family: "Work Sans", sans-serif;
-    font-style: none;
     size: 20px;
     color: #2947A9;
     padding-bottom: 20px;
 
 }
+
 .table table tr td:last-child {
-    color:#292E3D;
+    color: #292E3D;
 }
 
 .table table tr td {
-    font-family: "Work Sans", sans-serif;
-    font-style: none;
     size: 20px;
     padding-bottom: 20px;
 }
@@ -224,7 +190,15 @@ table {
     color: #292E3D;
 }
 
-.logo-bottom img{
+.logo-bottom img {
     width: 120px;
     margin-top: 20px;
+}
+
+.second-list {
+    color: #858EAD;
+}
+
+.second-list li {
+    list-style: square;
 }
